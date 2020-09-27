@@ -4,7 +4,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL:'https://fullstack-fitnessapp.herokuapp.com'
+    baseURL:'https://fullstack-fitnessapp-backend.herokuapp.com'
 })
 
 export default api

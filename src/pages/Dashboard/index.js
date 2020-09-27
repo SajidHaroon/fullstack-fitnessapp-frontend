@@ -298,7 +298,7 @@ const Dashboard = ({history}) => {
         getEvents()
     }, [])
     
-    const socket = useMemo(() => socketio('https://fullstack-fitnessapp.herokuapp.com', { query: { user: user_id}}), [user_id])
+    const socket = useMemo(() => socketio('https://fullstack-fitnessapp-backend.herokuapp.com', { query: { user: user_id}}), [user_id])
     
     useEffect(() => {
         // socket.on('mojo', response => console.log(response))
